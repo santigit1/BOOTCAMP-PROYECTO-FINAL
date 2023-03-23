@@ -71,7 +71,7 @@ a{
 }
 
 a:hover {
-    background: linear-gradient(90deg, #6004ac,#a651f7,#f004f8);
+    background: linear-gradient(to bottom left, #34025e,#893ecf,#ee26ac);
     color: black;
     padding: 10px;
     border-radius: 5px;

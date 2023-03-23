@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*.....................HEADER........................  */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 130px;
+    background-image: url("/assets/cosmos-1853491_1280.jpg");
+    border: 1px solid rgb(222, 40, 192);
+}
+
+.fondo{
+    background-size: cover;
+}
+
+.title{
+    height: 120px;
+    width: 350px;
+    text-shadow: -1px -1px 11px rgb(152, 61, 255),-6px 16px 23px rgb(121, 40, 175), -1px 1px 25px rgb(238, 48, 228);
+    animation: myAnim 3s ease infinite normal forwards;
+}
+
+@keyframes myAnim { 
+    0% {
+        opacity: 1;
+        
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+img {
+    width: 240px;
+    height: 150px;
+}
+
+nav{
+    height: 60px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;   
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}
+
+a{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 18px;
+    color:#ee26d3;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: linear-gradient(90deg, #6004ac,#a651f7,#f004f8);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -155,10 +155,11 @@ h2{
 }
 
 h3{
-    background: linear-gradient(rgb(152, 61, 255), rgb(121, 40, 175));
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 221));
     -webkit-background-clip: text;
     color: transparent;  
     font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
 }
 
 p{

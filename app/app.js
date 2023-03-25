@@ -1,7 +1,7 @@
 // API RYCK AND MORTY
 
 const API_BASE = "https://rickandmortyapi.com/api"
-const API_CHARACTERS = "https://rickandmortyapi.com/api/character"
+const API_CHARACTERS = "https://rickandmortyapi.com/api/character?"
 
 const llamadaAApi = fetch(API_CHARACTERS)
 
@@ -33,3 +33,4 @@ llamadaAApi.then((data)=>{
 .catch((err) => {
     console(err)
 })
+

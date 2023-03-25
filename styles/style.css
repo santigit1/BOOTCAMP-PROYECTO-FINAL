@@ -99,14 +99,12 @@ section{
     display: block;
 }
 
-h2{
-    width: 100%;
+.subtitle{
+    text-align: center;
     border: 1px solid #ee26ac;
     border-radius: 10px;
     font-family: 'Roboto Mono', monospace;
     color: #ee26ac;
-    letter-spacing: 2px;
-    text-align: center;
     padding: 10px;
     margin: 10px;
     background-image: url(/assets/cosmos-1853491_1280.jpg);
@@ -115,7 +113,7 @@ h2{
 .about{
     color: white;
     letter-spacing: 2px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     margin: 15px;
     font-family: 'Roboto Mono', monospace;

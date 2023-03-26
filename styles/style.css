@@ -119,8 +119,10 @@ section{
 
 .about:hover{
     color: #ee26d3;
-    background-color: black;
+    background-image: url(/assets/cosmos-1853491_1280.jpg);
     border-radius: 10px;
+    border: 1px solid #ee26d3;
+    padding: 5px;
 }
 
 #container{

@@ -17,8 +17,6 @@ header{
     border-radius: 10px;
     /* border-image: linear-gradient(to bottom, #521785 0%, #ee26ac 100%) 1; */
 }
-
-
 .fondo{
     background-size: cover;
 }
@@ -68,14 +66,13 @@ a{
     text-decoration: none;
     font-size: 19px;
     color:#ee26d3;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
 }
 
 a:hover {
     background: linear-gradient(to bottom left, #521785,#893ecf,#ee26ac);
     color: black;
-    padding: 10px;
     border-radius: 5px;
 }
 
@@ -171,3 +168,35 @@ p:hover{
     color:  rgb(64, 182, 113);
 }
 
+.text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.text:hover {
+    color: rgb(64, 182, 113);
+}
+
+.hbo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.boton{
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    border:  1px solid #ee26d3;
+    background-image: url(/assets/cosmos-1853491_1280.jpg);
+}
+
+.footer{
+    background-image: url(/assets/cosmos-1853491_1280.jpg);
+    width: 100%;
+    height: 100px;
+    border:1px solid #ee26d3;
+    border-radius: 10px;
+}

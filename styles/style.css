@@ -211,6 +211,11 @@ footer{
     gap: 10px;
     margin: 5px;
 }
+
+.boot{
+    margin: 10px;
+}
+
 .icono{
     font-size: 22px;
     font-weight: 100;

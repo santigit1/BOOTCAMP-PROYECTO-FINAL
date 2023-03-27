@@ -6,25 +6,21 @@
 
 /*.....................HEADER........................  */
 header{
-    margin: 2px 10px 0px 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    height: 130px;
-    background-image: url("/assets/cosmos-1853491_1280.jpg");
+    justify-content: space-around;
     border: 1px solid #ee26d3;
     border-radius: 10px;
-    /* border-image: linear-gradient(to bottom, #521785 0%, #ee26ac 100%) 1; */
+    height: 150px;
+    background-image: url("/assets/cosmos-1853491_1280.jpg");
+    
 }
 .fondo{
     background-size: cover;
 }
 
 .title{
-    height: 120px;
     width: 350px;
-    margin: 10px;
     text-shadow: -1px -1px 11px rgb(152, 61, 255),-6px 16px 23px rgb(121, 40, 175), -1px 1px 25px rgb(238, 48, 228);
     animation: myAnim 3s ease infinite normal forwards;
 }
@@ -43,13 +39,11 @@ header{
 }
 
 img {
-    width: 240px;
+    width: 250px;
     height: 150px;
 }
 
 nav{
-    height: 60px;
-    width: 370px;
     display: flex;
     justify-content: space-around;
 }
@@ -65,7 +59,7 @@ a{
     font-family: 'Roboto Mono', monospace;
     font-weight: bolder;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 20px;
     color:#ee26d3;
     padding: 10px;
     border-radius: 5px;
@@ -90,11 +84,6 @@ body{
 main{
     min-height: 100vh;
     width: 100%;
-    padding: 20px 0px;
-}
-
-section{
-    display: block;
 }
 
 .subtitle{
@@ -110,16 +99,16 @@ section{
 
 .about{
     color: white;
-    letter-spacing: 2px;
-    font-size: 15px;
-    font-weight: 600;
-    margin: 15px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 20px;
     font-family: 'Roboto Mono', monospace;
 
 }
 
 .about:hover{
     color: #ee26d3;
+    padding: 2px;
     background-image: url(/assets/cosmos-1853491_1280.jpg);
     border-radius: 10px;
     border: 1px solid #ee26d3;
@@ -172,7 +161,7 @@ p:hover{
 }
 
 .text {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -184,26 +173,23 @@ p:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 .boton{
-    width: 500px;
-    height: 60px;
+    width: 200px;
     text-align: center;
     font-size: 30px;
     border:  1px solid #ee26d3;
     background-image: url(/assets/cosmos-1853491_1280.jpg);
 }
-
+/* --------------------------------FOOTER--------------------------- */
 footer{
-    margin: 10px;
     font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: url(/assets/cosmos-1853491_1280.jpg);
-    height: 100px;
     border:1px solid #ee26d3;
     border-radius: 10px;
 }
@@ -221,17 +207,17 @@ footer{
 
 .icono{
     font-size: 22px;
-    font-weight: 100;
-    
 }
 
-.instragram{
+.instragram, .github{
     width: 50px;
-    height: 50px;
-    
+    height: 50px;    
 }
 
-.github{
-    width: 50px;
-    height: 50px;
-}
+
+
+/* ------------RESPONSIVE DESING----------------------------- */
+/* 
+pc 1440px
+tablet 880px
+cel 480px */

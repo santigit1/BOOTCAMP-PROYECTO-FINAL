@@ -218,6 +218,51 @@ footer{
 
 /* ------------RESPONSIVE DESING----------------------------- */
 /* 
-pc 1440px
-tablet 880px
-cel 480px */
+Medidas PC: 1440px
+Medidas TABLET: 880px
+Medidas PHONE: 480px */
+@media  (max-width: 480px){
+    header{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #fondo{
+        display: none;
+    }
+    #title{
+        display: none;
+    }
+    #menu{
+        justify-content: center;
+    }
+}
+
+@media  (max-width: 958px){
+    header{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #fondo{
+        display: none;
+    }
+  
+    #menu{
+        align-items: center;
+    }
+}
+@media  (max-width: 718px){
+    header{
+        width: 100%;
+        justify-content: center;
+    }
+    #fondo{
+        display: none;
+    }
+    #title{
+        display: none; 
+    }
+    #menu{
+        align-items: center;
+    }
+}
